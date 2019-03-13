@@ -1,0 +1,19 @@
+form {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: black;
+}
+
+input {
+  padding: 10px;
+  width: 90%;
+  margin: 4px;
+}
+
+button {
+  background: blue;
+  width: 7%;
+  padding: 10px;
+  color: white;
+}

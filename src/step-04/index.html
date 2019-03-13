@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>STEP04</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body>
+    <h1>STEP04</h1>
+    <button id="createRoomButton">create room</button>
+    <button id="getRoomsButton">get rooms</button>
+    <button id="getVideoButton">get Video</button>
+    <button id="connectButton">connect</button>
+    <button id="startButton">start</button>
+    <button id="sampleDataButton">sampleDataButton</button>
+
+
+    <h3>Room list</h3>
+    <ul id="roomList"></ul>
+    <form id="form">
+      <input id="messageInput" autocomplete="off" />
+      <button type="submit">send</button>
+    </form>
+
+    <div>
+      <video id="remoteVideo" autoplay playsinline></video>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
